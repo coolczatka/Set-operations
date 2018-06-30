@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<!DOCTYPE
+	html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2" />
+	<title>Program JAO lab 3</title>
+</head>
+
+<body>
+	<form action='index.php' method='post' enctype="multipart/form-data">
+
+	<div id="form">
+		<p style="font-size:20px">Wybierz plik z danymi :</p>
+		<input type="file" name="browse" value="Przeglądaj"/><br /><br />
+		<input type="submit" name="load" value="Wczytaj"/>:daneWczytane:<br /><br />
+		<textarea id ="zbiory" name ="sets"rows="5" cols="30" readonly="readonly">:zbiory:</textarea>
+		<input type="submit" name="union" value="Oblicz sume"/>:suma:<br /><br />
+		<input type="submit" name="intersect" value="Oblicz iloczyn"/>:iloczyn:<br /><br />
+		<input type="submit" name="showresult" value="Wyswietl"/><br />
+		<p style="font-size:20px">Wynik</p>
+		<textarea id="wynik" name="result" rows="32" cols="20" readonly="readonly">:wynik:</textarea>
+	</div>
+	</form>
+</body>
+
+</html> 
